@@ -15,13 +15,10 @@
 
 using namespace std;
 using namespace __gnu_pbds;
-
-
 void solve()
 {
     
 }
-
 int main()
 {
     sandy;

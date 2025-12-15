@@ -18,9 +18,16 @@ int Find_hcf(int a,int b)
   return Find_hcf(b,r);
 }
 
+bool checkEven(char c){
+  vector<char> ch = {'a','e','i','o','u','A','E','I','O','U'};
+  for(char item : ch){
+    if(item == c) return true;
+  }
+  return false;
+}
+
 void solve()
 {
-  
   
 }
 
@@ -31,13 +38,10 @@ int main()
 
   ll tc;
   cin >> tc;
-  
-
   while (tc--)
   {
     
     solve();
   }
-
   return 0;
 }
